@@ -1,10 +1,10 @@
 import os
 import yaml
 import hcl2
-import glob  # Import glob for pattern matching of file paths
+import glob  
 
 # Constants
-YAML_DIRECTORY_PATH = '<Path to Directory Containing YAML Files>'  # Directory containing YAML files
+YAML_DIRECTORY_PATH = '<Path to Directory Containing YAML Files>' 
 TERRAFORM_DIRECTORY_PATH = '<Path to Terraform Code>'
 
 def get_yaml_file_paths(yaml_directory_path):
