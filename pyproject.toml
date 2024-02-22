@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "terraform-grader"
 version = "0.1.0"
 description = "A script to evaluate and grade Terraform configurations against AWS Conformance Pack criteria defined in YAML files."
-authors = ["Your Name <youremail@example.com>"]
+authors = ["Austin Songer"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
