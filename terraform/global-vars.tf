@@ -12,7 +12,11 @@ variable "resource_prefix" {
 variable "default_aws_region" {
   description = "The AWS region to create resources in"
   type        = string
+<<<<<<< HEAD
   default     = "us-gov-west-1"
+=======
+  default     = "us-east-1"
+>>>>>>> 89bd7c2 (Add files via upload)
 }
 
 variable "global_tags" {
